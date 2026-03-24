@@ -1,0 +1,48 @@
+.hero {
+  padding: 1.25rem;
+  border: 1px solid #d0d7de;
+  border-radius: 12px;
+  margin: 1rem 0 1.5rem 0;
+}
+
+.hero p:last-child {
+  margin-bottom: 0;
+}
+
+.actions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.75rem;
+  margin: 1rem 0 1.25rem 0;
+}
+
+.action-card {
+  border: 1px solid #d0d7de;
+  border-radius: 10px;
+  padding: 0.9rem 1rem;
+}
+
+.action-card strong {
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.section-block {
+  border: 1px solid #d0d7de;
+  border-radius: 10px;
+  padding: 0.9rem 1rem;
+  margin: 1rem 0;
+}
+
+.figure-frame {
+  border: 1px solid #d0d7de;
+  border-radius: 10px;
+  padding: 0.6rem;
+  margin: 0.8rem 0;
+}
+
+.inline-note {
+  border-left: 4px solid #d0d7de;
+  padding: 0.5rem 0.9rem;
+  margin: 1rem 0;
+}
