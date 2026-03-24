@@ -1,0 +1,23 @@
+title: CEOS UNOOSA Training
+description: EO Tutorial with cubo, xarray, and Dask
+theme: jekyll-theme-slate
+
+# Navigation configuration
+navigation:
+  - title: Home
+    url: /
+  - title: Tutorial
+    url: /tutorial
+  - title: Slides
+    url: /slides
+
+# Enable markdown processing
+markdown: kramdown
+highlighter: rouge
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"

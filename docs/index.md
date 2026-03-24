@@ -5,29 +5,21 @@ title: EO Tutorial with cubo, xarray, and Dask
 <link rel="stylesheet" href="assets/site.css">
 
 <div class="top-nav">
-  <a href="index.md">Home</a>
-  <a href="tutorial.md">Tutorial</a>
-  <a href="slides.md">Slides</a>
+  <a href="./">Home</a>
+  <a href="./tutorial">Tutorial</a>
+  <a href="./slides">Slides</a>
 </div>
 
 # EO Tutorial with `cubo`, xarray, and Dask
 
-A compact teaching package for a 90-minute session on **medium-resolution Earth Observation**, focused on **climate resilience** and **risk monitoring**.
-<!-- make it a bit small !-->
+A Tutorial session on **medium-resolution Earth Observation**, focused on **climate resilience** and **risk monitoring**.
 
 <p align="center">
   <img src="assets/earth_modis_globe.jpg" alt="Earth view" width="420">
 </p>
 
-
-
 <div class="hero">
   <p><strong>Quick start:</strong> open the tutorial notebook in your browser, download the notebook if needed, or launch directly in Google Colab.</p>
-</div>
-
-<div id="study-area-codes" class="study-codes">
-  <strong>Study area codes</strong><br>
-  gode_afric, ban_asia
 </div>
 
 <div class="actions">
@@ -61,7 +53,7 @@ A compact teaching package for a 90-minute session on **medium-resolution Earth 
 
 - [Download the presentation (`.pptx`)](assets/cubo_xarray_dask_presentation.pptx)
 - [Google Slides (add your link later)](#)
-- [Open slides page](slides.md)
+- [Open slides page](./slides)
 
 ## Run in Google Colab
 

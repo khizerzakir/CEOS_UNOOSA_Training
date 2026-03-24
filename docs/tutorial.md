@@ -5,9 +5,9 @@ title: Tutorial overview
 <link rel="stylesheet" href="assets/site.css">
 
 <div class="top-nav">
-  <a href="index.md">Home</a>
-  <a href="tutorial.md">Tutorial</a>
-  <a href="slides.md">Slides</a>
+  <a href="./index">Home</a>
+  <a href="./tutorial">Tutorial</a>
+  <a href="./slides">Slides</a>
 </div>
 
 # Tutorial overview
@@ -74,65 +74,13 @@ The second tutorial focuses on climate resilience applications across Africa and
 - always check scaling factors, QA flags, and product-specific metadata
 - combine EO indicators with rainfall and local context before interpretation
 
-## Regional examples
 
-### Africa
-<div class="figure-frame">
-![Africa example](assets/gode_africa.png)
+## Study Areas
+
+<div class="image-grid">
+  <img src="assets/gode_africa.png" alt="gode_africa">
+  <img src="assets/ban_asia.png" alt="ban_asia">
+
 </div>
 
-### Asia
-<div class="figure-frame">
-![Asia example](assets/ban_asia.png)
-</div>
-
-## Image swiper
-
-<div class="png-swiper" id="tutorial-png-swiper">
-  <button class="swiper-btn" id="tutorial-swiper-prev" aria-label="Previous image">&#10094;</button>
-
-  <div class="swiper-stage">
-    <img class="swiper-slide is-active" src="assets/gode_africa.png" alt="gode_africa">
-    <img class="swiper-slide" src="assets/ban_asia.png" alt="ban_asia">
-    <img class="swiper-slide" src="assets/montage.png" alt="montage">
-    <img class="swiper-slide" src="assets/montage2.png" alt="montage2">
-  </div>
-
-  <button class="swiper-btn" id="tutorial-swiper-next" aria-label="Next image">&#10095;</button>
-</div>
-
-<div class="inline-note" id="tutorial-swiper-status">Image 1 of 4</div>
-
-<script>
-(function () {
-  const root = document.getElementById('tutorial-png-swiper');
-  if (!root) return;
-
-  const slides = Array.from(root.querySelectorAll('.swiper-slide'));
-  const prevBtn = document.getElementById('tutorial-swiper-prev');
-  const nextBtn = document.getElementById('tutorial-swiper-next');
-  const status = document.getElementById('tutorial-swiper-status');
-
-  let index = 0;
-
-  function render() {
-    slides.forEach((slide, i) => {
-      slide.classList.toggle('is-active', i === index);
-    });
-    if (status) status.textContent = `Image ${index + 1} of ${slides.length}`;
-  }
-
-  prevBtn.addEventListener('click', function () {
-    index = (index - 1 + slides.length) % slides.length;
-    render();
-  });
-
-  nextBtn.addEventListener('click', function () {
-    index = (index + 1) % slides.length;
-    render();
-  });
-
-  render();
-})();
-</script>
-- [Go back to the home page](index.md)
+- [Go back to the home page](./index)

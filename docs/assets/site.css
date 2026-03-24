@@ -144,3 +144,18 @@
 .swiper-btn:hover {
   background: #f3f7ff;
 }
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #c7d6ea;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.08);
+}
