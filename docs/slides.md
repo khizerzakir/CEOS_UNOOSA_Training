@@ -8,27 +8,31 @@ Use the slide deck for the lecture part of the session, then switch to the noteb
 
 ## Resources
 
+<div class="section-block">
+
 - [Download PowerPoint (.pptx)](assets/presentation.pptx)
 - [View on Google Slides](https://docs.google.com/presentation/d/1MbLCZl65a0RlgKDsKgOieQ-J4rfpf8Mx/edit?usp=sharing&ouid=106019696090715174142&rtpof=true&sd=true)
 - [Go to tutorial overview](tutorial.md)
 
+</div>
+
 ## QR Codes
 
-<div style="display: flex; flex-wrap: wrap; gap: 40px; justify-content: center; margin: 20px 0;">
+<div class="qr-grid">
 
-<div style="text-align: center;">
+<div class="qr-card">
 
 **DVCUBE**
 
-![DVCUBE QR code](assets/DVCUBE-TVtbma.png){ width="120" }
+![DVCUBE QR code](assets/DVCUBE-TVtbma.png)
 
 </div>
 
-<div style="text-align: center;">
+<div class="qr-card">
 
 **My GitHub**
 
-![My GitHub QR code](assets/My%20Github-wQcTyP.png){ width="120" }
+![My GitHub QR code](assets/My%20Github-wQcTyP.png)
 
 </div>
 
@@ -36,9 +40,17 @@ Use the slide deck for the lecture part of the session, then switch to the noteb
 
 ## Preview
 
-![Cubo xarray + Dask slide thumbnail](image.png){ width="200" }
+<div class="figure-frame">
 
-[Open Google Slides →](https://docs.google.com/presentation/d/1MbLCZl65a0RlgKDsKgOieQ-J4rfpf8Mx/edit?usp=sharing&ouid=106019696090715174142&rtpof=true&sd=true)
+![Cubo xarray + Dask slide thumbnail](image.png)
+
+</div>
+
+<div class="resource-links">
+
+[Open Google Slides](https://docs.google.com/presentation/d/1MbLCZl65a0RlgKDsKgOieQ-J4rfpf8Mx/edit?usp=sharing&ouid=106019696090715174142&rtpof=true&sd=true)
+
+</div>
 
 ---
 

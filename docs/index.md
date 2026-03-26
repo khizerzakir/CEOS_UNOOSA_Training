@@ -4,15 +4,23 @@ title: Home
 
 # EO Tutorial with cubo, xarray, and Dask
 
-A Tutorial session on **medium-resolution Earth Observation**, focused on **climate resilience** and **risk monitoring**.
+<div class="hero">
 
-![Earth MODIS Globe](assets/earth_modis_globe.jpg){ width="200" }
+<p class="lead">A tutorial session on <strong>medium-resolution Earth Observation</strong>, focused on <strong>climate resilience</strong> and <strong>risk monitoring</strong>.</p>
+
+</div>
+
+<div class="figure-frame">
+
+![Earth MODIS Globe](assets/earth_modis_globe.jpg)
+
+</div>
 
 ## Get Started
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin: 20px 0;">
+<div class="actions">
 
-<div style="border: 1px solid #e0e0e0; border-radius: 8px; padding: 20px; background: #f9f9f9;">
+<div class="action-card">
 
 **Tutorial Notebook**
 
@@ -22,7 +30,7 @@ A Tutorial session on **medium-resolution Earth Observation**, focused on **clim
 
 </div>
 
-<div style="border: 1px solid #e0e0e0; border-radius: 8px; padding: 20px; background: #f9f9f9;">
+<div class="action-card">
 
 **Cubo Tutorial**
 
@@ -32,7 +40,7 @@ Complete cubo, xarray, and Dask walkthrough
 
 </div>
 
-<div style="border: 1px solid #e0e0e0; border-radius: 8px; padding: 20px; background: #f9f9f9;">
+<div class="action-card">
 
 **EO Climate Tutorial**
 
@@ -56,15 +64,23 @@ Regional examples: Africa & Asia
 
 ### Slides
 
+<div class="section-block">
+
 - [Download presentation (.pptx)](assets/cubo_xarray_dask_presentation.pptx)
 - [View on Google Slides](https://docs.google.com/presentation/d/1MbLCZl65a0RlgKDsKgOieQ-J4rfpf8Mx/edit?usp=sharing&ouid=106019696090715174142&rtpof=true&sd=true)
 - [Open slides page](slides.md)
 
+</div>
+
 ### Colab Links
+
+<div class="resource-links">
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/khizerzakir/github_pages_cubo_tutorial/blob/main/cubo_xarray_dask_tutorial.ipynb)
 
 [![Open EO Climate In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/khizerzakir/github_pages_cubo_tutorial/blob/main/eo_climate_resilience_tutorial_africa_asia.ipynb)
+
+</div>
 
 ---
 

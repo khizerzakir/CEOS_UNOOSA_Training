@@ -10,9 +10,9 @@ title: Tutorial
 
 ## Quick Links
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin: 20px 0;">
+<div class="actions">
 
-<div style="border: 1px solid #e0e0e0; border-radius: 8px; padding: 20px; background: #f9f9f9;">
+<div class="action-card">
 
 **Cubo Tutorial**
 
@@ -22,7 +22,7 @@ title: Tutorial
 
 </div>
 
-<div style="border: 1px solid #e0e0e0; border-radius: 8px; padding: 20px; background: #f9f9f9;">
+<div class="action-card">
 
 **EO Climate Tutorial**
 
@@ -36,6 +36,8 @@ title: Tutorial
 
 ## Concepts covered
 
+<div class="section-block">
+
 - what a remote EO cube call looks like
 - how `xarray` labels dimensions like `time`, `band`, `y`, `x`
 - why Dask-backed chunks matter
@@ -45,9 +47,13 @@ title: Tutorial
   - **default STAC access**
   - **another STAC endpoint**
 
+</div>
+
 **Colab Tip:** Use **Runtime → Run all** after package installation cells complete.
 
 ## Other tutorial in this project
+
+<div class="section-block">
 
 The second tutorial focuses on climate resilience applications across Africa and Asia:
 
@@ -56,7 +62,11 @@ The second tutorial focuses on climate resilience applications across Africa and
 - uses MPC/STAC and cubo-friendly workflows for participants without GEE
 - includes NDVI snapshots, search patterns, and integrated climate-context examples
 
+</div>
+
 ## Using medium-resolution EO data: key points
+
+<div class="section-block">
 
 - medium-resolution products are strong for regional monitoring and trend analysis
 - revisit frequency is often more important than fine spatial detail for resilience signals
@@ -64,12 +74,26 @@ The second tutorial focuses on climate resilience applications across Africa and
 - always check scaling factors, QA flags, and product-specific metadata
 - combine EO indicators with rainfall and local context before interpretation
 
+</div>
+
 
 ## Study Areas
 
-| Africa | Asia |
-|--------|------|
-| ![Africa study area](assets/gode_africa.png){ width="200" } | ![Asia study area](assets/ban_asia.png){ width="200" } |
+<div class="image-grid">
+
+<div class="figure-frame">
+
+![Africa study area](assets/gode_africa.png)
+
+</div>
+
+<div class="figure-frame">
+
+![Asia study area](assets/ban_asia.png)
+
+</div>
+
+</div>
 
 ---
 
