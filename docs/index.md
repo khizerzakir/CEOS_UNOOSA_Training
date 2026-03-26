@@ -6,54 +6,33 @@ title: Home
 
 A tutorial session on medium-resolution Earth Observation, focused on climate resilience and risk monitoring.
 
-<div class="actions" markdown="1">
-
-<div class="action-card" markdown="1">
-
-<img src="assets/earth_modis_globe.jpg" alt="Earth MODIS Globe" style="max-width: 720px; width: 100%; height: auto; display: block; margin: 1rem auto;">
-
-</div>
+<img src="assets/earth_modis_globe.jpg" alt="Earth MODIS Globe" style="max-width:720px; width:100%; height:auto; display:block; margin:1rem auto;">
 
 ## Get Started
 
-<div class="actions" markdown="1">
+<div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:1rem; margin:1rem 0 2rem 0;">
 
-<div class="action-card" markdown="1">
+  <div style="border:1px solid #ddd; border-radius:10px; padding:1rem;">
+    <h3>Tutorial Notebook</h3>
+    <p><a href="assets/cubo_xarray_dask_tutorial.html">Open in browser</a> — Rendered notebook</p>
+    <p><a href="assets/cubo_xarray_dask_tutorial.ipynb">Download .ipynb</a> — Jupyter file</p>
+  </div>
 
-### Tutorial Notebook
+  <div style="border:1px solid #ddd; border-radius:10px; padding:1rem;">
+    <h3>Cubo Tutorial</h3>
+    <p><a href="https://colab.research.google.com/github/khizerzakir/github_pages_cubo_tutorial/blob/main/cubo_xarray_dask_tutorial.ipynb">Open in Google Colab</a> — Run online</p>
+    <p>Complete cubo, xarray, and Dask walkthrough.</p>
+  </div>
 
-
-[Open in browser](assets/cubo_xarray_dask_tutorial.html) — Rendered notebook
-
-[Download .ipynb](assets/cubo_xarray_dask_tutorial.ipynb) — Jupyter file
-
-</div>
-
-<div class="actions" markdown="1">
-
-<div class="action-card" markdown="1">
-
-### Cubo Tutorial
-[Open in Google Colab](https://colab.research.google.com/github/khizerzakir/github_pages_cubo_tutorial/blob/main/cubo_xarray_dask_tutorial.ipynb) — Run online
-
-Complete cubo, xarray, and Dask walkthrough
-
-</div>
-
-<div class="actions" markdown="1">
-
-<div class="action-card" markdown="1">
-
-### EO Climate Tutorial
-[Open in Google Colab](https://colab.research.google.com/github/khizerzakir/github_pages_cubo_tutorial/blob/main/eo_climate_resilience_tutorial_africa_asia.ipynb) — Run online
-
-Regional examples: Africa & Asia
+  <div style="border:1px solid #ddd; border-radius:10px; padding:1rem;">
+    <h3>EO Climate Tutorial</h3>
+    <p><a href="https://colab.research.google.com/github/khizerzakir/github_pages_cubo_tutorial/blob/main/eo_climate_resilience_tutorial_africa_asia.ipynb">Open in Google Colab</a> — Run online</p>
+    <p>Regional examples: Africa and Asia.</p>
+  </div>
 
 </div>
 
 ## What is included
-
-<div class="section-block" markdown="1">
 
 - a **slide deck** introducing Dask, API calling, xarray, and the tutorial flow
 - a **Jupyter notebook** using **`cubo`** as the single user-facing API
@@ -61,19 +40,12 @@ Regional examples: Africa & Asia
   - **Africa:** MODIS NDVI/EVI
   - **Asia:** Sentinel-3 OLCI coastal quicklook
 
-</div>
-
 ## Resources
-
-<div class="section-block" markdown="1">
 
 ### Slides
 - [Download presentation (.pptx)](assets/cubo_xarray_dask_presentation.pptx)
 - [View on Google Slides](https://docs.google.com/presentation/d/1MbLCZl65a0RlgKDsKgOieQ-J4rfpf8Mx/edit?usp=sharing&ouid=106019696090715174142&rtpof=true&sd=true)
 - [Open slides page](slides)
-
-</div>
-
 
 ### Colab Links
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/khizerzakir/github_pages_cubo_tutorial/blob/main/cubo_xarray_dask_tutorial.ipynb)
