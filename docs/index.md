@@ -22,6 +22,11 @@ A Tutorial session on **medium-resolution Earth Observation**, focused on **clim
   <p><strong>Quick start:</strong> open the tutorial notebook in your browser, download the notebook if needed, or launch directly in Google Colab.</p>
 </div>
 
+## Table of Contents
+
+* TOC
+{:toc}
+
 <div class="actions">
   <div class="action-card">
     <strong>Rendered notebook</strong>

@@ -1,3 +1,29 @@
+.main-content,
+.main-content *:not(img),
+.page-content,
+.page-content *:not(img) {
+  text-align: left !important;
+}
+
+/* Markdown heading-based TOC */
+.toc,
+#markdown-toc {
+  border: 1px solid #c7d6ea;
+  border-radius: 10px;
+  background: #f9fcff;
+  padding: 0.8rem 1rem;
+  margin: 0.8rem 0 1.2rem 0;
+}
+
+#markdown-toc {
+  list-style: none;
+  padding-left: 0.4rem;
+}
+
+#markdown-toc li {
+  margin: 0.25rem 0;
+}
+
 .top-nav {
   display: flex;
   flex-wrap: wrap;

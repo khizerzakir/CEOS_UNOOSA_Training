@@ -16,6 +16,11 @@ This tutorial keeps the user-facing workflow simple:
 
 > **`cubo` for data access, `xarray` for analysis, Dask for scaling**
 
+## Table of Contents
+
+* TOC
+{:toc}
+
 <div class="actions">
   <div class="action-card">
     <strong>Rendered HTML</strong>

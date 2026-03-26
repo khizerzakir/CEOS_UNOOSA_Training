@@ -14,6 +14,11 @@ title: Slides
 
 Use the slide deck for the lecture part of the session, then switch to the notebook for the hands-on walkthrough.
 
+## Table of Contents
+
+* TOC
+{:toc}
+
 <div class="actions">
 	<div class="action-card">
 		<strong>Download slides</strong>
@@ -35,15 +40,11 @@ Use the slide deck for the lecture part of the session, then switch to the noteb
 
 ## View slides on this page
 
-<div class="slide-embed">
-	<iframe
-		src="https://view.officeapps.live.com/op/embed.aspx?src=https%3A%2F%2Fkhizerzakir.github.io%2Fgithub_pages_cubo_tutorial%2Fassets%2Fcubo_xarray_dask_presentation.pptx"
-		width="100%"
-		height="620"
-		frameborder="0"
-		title="Embedded PowerPoint"
-	></iframe>
-</div>
+### Cubo xarray + Dask presentation
+
+[![Cubo xarray + Dask slide thumbnail](https://docs.google.com/presentation/d/1MbLCZl65a0RlgKDsKgOieQ-J4rfpf8Mx/thumbnail?sz=w1000)](https://docs.google.com/presentation/d/1MbLCZl65a0RlgKDsKgOieQ-J4rfpf8Mx/edit?usp=sharing&ouid=106019696090715174142&rtpof=true&sd=true)
+
+- [Open Google Slides](https://docs.google.com/presentation/d/1MbLCZl65a0RlgKDsKgOieQ-J4rfpf8Mx/edit?usp=sharing&ouid=106019696090715174142&rtpof=true&sd=true)
 
 
 - [Go back to the home page](./index)
