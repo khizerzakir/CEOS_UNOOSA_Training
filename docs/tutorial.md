@@ -2,80 +2,49 @@
 title: Tutorial
 ---
 
-# 📖 Tutorial Overview
+# Tutorial Overview
 
-## 🔄 Workflow
+## Workflow
 
-```mermaid
-graph LR
-    A["🌐 cubo<br/>Data Access"] --> B["📊 xarray<br/>Analysis"]
-    B --> C["⚙️ Dask<br/>Scaling"]
-    C --> D["📈 Results"]
-    style A fill:#e1f5ff
-    style B fill:#fff3e0
-    style C fill:#f3e5f5
-    style D fill:#e8f5e9
-```
+**`cubo` for data access** → **`xarray` for analysis** → **Dask for scaling**
 
-## 🔗 Quick Links
+## Quick Links
 
-=== "📓 Notebooks"
-    - [View cubo tutorial (HTML)](assets/cubo_xarray_dask_tutorial.html)
-    - [View EO climate tutorial (HTML)](assets/eo_climate_resilience_tutorial_africa_asia.html)
-    - [Download cubo notebook](assets/cubo_xarray_dask_tutorial.ipynb)
-    - [Download climate notebook](assets/eo_climate_resilience_tutorial_africa_asia.ipynb)
+- [Cubo tutorial as HTML](assets/cubo_xarray_dask_tutorial.html) — Rendered notebook
+- [EO climate tutorial as HTML](assets/eo_climate_resilience_tutorial_africa_asia.html) — Climate notebook
+- [Launch cubo in Colab](https://colab.research.google.com/github/khizerzakir/github_pages_cubo_tutorial/blob/main/cubo_xarray_dask_tutorial.ipynb) — Run in Google Colab
+- [Launch EO climate in Colab](https://colab.research.google.com/github/khizerzakir/github_pages_cubo_tutorial/blob/main/eo_climate_resilience_tutorial_africa_asia.ipynb) — EO climate notebook
 
-=== "☁️ Colab"
-    - [Launch cubo in Colab](https://colab.research.google.com/github/khizerzakir/github_pages_cubo_tutorial/blob/main/cubo_xarray_dask_tutorial.ipynb)
-    - [Launch EO climate in Colab](https://colab.research.google.com/github/khizerzakir/github_pages_cubo_tutorial/blob/main/eo_climate_resilience_tutorial_africa_asia.ipynb)
+## Concepts covered
 
-## 💡 Key Concepts
+- what a remote EO cube call looks like
+- how `xarray` labels dimensions like `time`, `band`, `y`, `x`
+- why Dask-backed chunks matter
+- why `.compute()` should happen late
+- how the same `cubo.create(...)` call can target:
+  - **Google Earth Engine**
+  - **default STAC access**
+  - **another STAC endpoint**
 
-- ✅ Remote EO cube API calls
-- ✅ xarray dimensions: `time`, `band`, `y`, `x`
-- ✅ Dask chunking strategy
-- ✅ Lazy evaluation with `.compute()`
-- ✅ Flexible backends:
-    - Google Earth Engine
-    - STAC
-    - Custom endpoints
-
-## Notebook
-
-- [Rendered HTML notebook](assets/cubo_xarray_dask_tutorial.html)
-- [Raw notebook](assets/cubo_xarray_dask_tutorial.ipynb)
-- [Open cubo tutorial in Colab](https://colab.research.google.com/github/khizerzakir/github_pages_cubo_tutorial/blob/main/cubo_xarray_dask_tutorial.ipynb)
-- [Open EO climate tutorial in Colab](https://colab.research.google.com/github/khizerzakir/github_pages_cubo_tutorial/blob/main/eo_climate_resilience_tutorial_africa_asia.ipynb)
-
-!!! tip "💡 Colab Runtime Tip"
+!!! tip "Colab Runtime Tip"
     Use **Runtime → Run all** after package installation cells complete.
 
-!!! warning "⏰ Execution Time"
-    Some operations may take 5-10 minutes depending on data volume and cloud load.
+## Other tutorial in this project
 
-## 🌱 Climate Resilience Tutorial
+The second tutorial focuses on climate resilience applications across Africa and Asia:
 
-The companion tutorial focuses on practical applications across Africa and Asia:
+- [EO climate resilience notebook](assets/eo_climate_resilience_tutorial_africa_asia.ipynb)
+- includes AOI setup for `gode_afric` and `ban_asia`
+- uses MPC/STAC and cubo-friendly workflows for participants without GEE
+- includes NDVI snapshots, search patterns, and integrated climate-context examples
 
-!!! check "Featured Content"
-    - **[Open climate notebook](assets/eo_climate_resilience_tutorial_africa_asia.ipynb)**
-    - AOI setup for Africa (`gode_africa`) and Asia (`ban_asia`)
-    - MPC/STAC workflows (no GEE needed)
-    - NDVI time series, search patterns, climate context
+## Using medium-resolution EO data: key points
 
-## 🎯 Medium-Resolution EO Best Practices
-
-!!! info "Why Medium-Resolution?"
-    - Ideal for regional monitoring and trend analysis
-    - Revisit frequency > spatial detail for resilience signals
-    - Cost-effective for large areas
-
-!!! check "Implementation Guidelines"
-    - Start small: limit spatial and temporal windows
-    - Scale up with Dask once proven
-    - Validate scaling factors and QA flags
-    - Combine with rainfall data and local context
-    - Never interpret EO signals in isolation
+- medium-resolution products are strong for regional monitoring and trend analysis
+- revisit frequency is often more important than fine spatial detail for resilience signals
+- keep spatial and temporal windows small first, then scale with Dask
+- always check scaling factors, QA flags, and product-specific metadata
+- combine EO indicators with rainfall and local context before interpretation
 
 
 ## Study Areas

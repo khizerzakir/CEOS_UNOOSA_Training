@@ -2,47 +2,39 @@
 title: Home
 ---
 
-# 🌍 EO Tutorial with cubo, xarray, and Dask
+# EO Tutorial with cubo, xarray, and Dask
 
-A comprehensive tutorial session on **medium-resolution Earth Observation**, focused on **climate resilience** and **risk monitoring**.
+A Tutorial session on **medium-resolution Earth Observation**, focused on **climate resilience** and **risk monitoring**.
 
 ![Earth MODIS Globe](assets/earth_modis_globe.jpg){ width="420" }
 
 !!! info "Quick Start"
     Open the tutorial notebook in your browser, download if needed, or launch directly in Google Colab.
 
-## 🚀 Get Started
+## Get Started
 
-=== "Browser"
-    - **[Open tutorial in browser](assets/cubo_xarray_dask_tutorial.html)** — Interactive HTML notebook
-    - **[Open EO climate tutorial](assets/eo_climate_resilience_tutorial_africa_asia.html)** — Climate analysis notebook
+- **[Open tutorial in browser](assets/cubo_xarray_dask_tutorial.html)** — Rendered notebook
+- **[Download .ipynb](assets/cubo_xarray_dask_tutorial.ipynb)** — Notebook file
+- **[Open cubo tutorial in Colab](https://colab.research.google.com/github/khizerzakir/github_pages_cubo_tutorial/blob/main/cubo_xarray_dask_tutorial.ipynb)** — Run in Google Colab
+- **[Open EO climate tutorial in Colab](https://colab.research.google.com/github/khizerzakir/github_pages_cubo_tutorial/blob/main/eo_climate_resilience_tutorial_africa_asia.ipynb)** — EO climate notebook
 
-=== "Download"
-    - **[Download cubo notebook](assets/cubo_xarray_dask_tutorial.ipynb)** — .ipynb file
-    - **[Download climate notebook](assets/eo_climate_resilience_tutorial_africa_asia.ipynb)** — .ipynb file
+## What is included
 
-=== "Google Colab"
-    - **[Open cubo in Colab](https://colab.research.google.com/github/khizerzakir/github_pages_cubo_tutorial/blob/main/cubo_xarray_dask_tutorial.ipynb)** — Run in cloud
-    - **[Open EO climate in Colab](https://colab.research.google.com/github/khizerzakir/github_pages_cubo_tutorial/blob/main/eo_climate_resilience_tutorial_africa_asia.ipynb)** — Climate notebook
+- a **slide deck** introducing Dask, API calling, xarray, and the tutorial flow
+- a **Jupyter notebook** using **`cubo`** as the single user-facing API
+- two simple regional examples:
+  - **Africa:** MODIS NDVI/EVI
+  - **Asia:** Sentinel-3 OLCI coastal quicklook
 
-## 📦 What is Included
+## Resources
 
-!!! check "Complete Package"
-    - **Slide deck** — Dask, API calling, xarray, and workflow overview
-    - **Jupyter notebooks** — Using **`cubo`** as the unified API
-    - **Regional examples** — Real-world applications:
-        - **🌍 Africa:** MODIS NDVI/EVI time series analysis
-        - **🏝️ Asia:** Sentinel-3 OLCI coastal monitoring
+### Slides
 
-## 📚 Resources
+- [Download presentation (.pptx)](assets/cubo_xarray_dask_presentation.pptx)
+- [View on Google Slides](https://docs.google.com/presentation/d/1MbLCZl65a0RlgKDsKgOieQ-J4rfpf8Mx/edit?usp=sharing&ouid=106019696090715174142&rtpof=true&sd=true)
+- [Open slides page](slides.md)
 
-### 🎬 Presentations
-
-- [📥 Download PowerPoint (.pptx)](assets/cubo_xarray_dask_presentation.pptx)
-- [📊 View on Google Slides](https://docs.google.com/presentation/d/1MbLCZl65a0RlgKDsKgOieQ-J4rfpf8Mx/edit?usp=sharing&ouid=106019696090715174142&rtpof=true&sd=true)
-- [→ Go to slides page](slides.md)
-
-### ☁️ Run in Google Colab
+### Colab Links
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/khizerzakir/github_pages_cubo_tutorial/blob/main/cubo_xarray_dask_tutorial.ipynb){ target="_blank" }
 
