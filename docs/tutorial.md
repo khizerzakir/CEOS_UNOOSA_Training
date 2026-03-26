@@ -10,10 +10,29 @@ title: Tutorial
 
 ## Quick Links
 
-- [Cubo tutorial as HTML](assets/cubo_xarray_dask_tutorial.html) — Rendered notebook
-- [EO climate tutorial as HTML](assets/eo_climate_resilience_tutorial_africa_asia.html) — Climate notebook
-- [Launch cubo in Colab](https://colab.research.google.com/github/khizerzakir/github_pages_cubo_tutorial/blob/main/cubo_xarray_dask_tutorial.ipynb) — Run in Google Colab
-- [Launch EO climate in Colab](https://colab.research.google.com/github/khizerzakir/github_pages_cubo_tutorial/blob/main/eo_climate_resilience_tutorial_africa_asia.ipynb) — EO climate notebook
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin: 20px 0;">
+
+<div style="border: 1px solid #e0e0e0; border-radius: 8px; padding: 20px; background: #f9f9f9;">
+
+**Cubo Tutorial**
+
+[View as HTML](assets/cubo_xarray_dask_tutorial.html) — Rendered notebook
+
+[Run in Google Colab](https://colab.research.google.com/github/khizerzakir/github_pages_cubo_tutorial/blob/main/cubo_xarray_dask_tutorial.ipynb) — Interactive
+
+</div>
+
+<div style="border: 1px solid #e0e0e0; border-radius: 8px; padding: 20px; background: #f9f9f9;">
+
+**EO Climate Tutorial**
+
+[View as HTML](assets/eo_climate_resilience_tutorial_africa_asia.html) — Rendered notebook
+
+[Run in Google Colab](https://colab.research.google.com/github/khizerzakir/github_pages_cubo_tutorial/blob/main/eo_climate_resilience_tutorial_africa_asia.ipynb) — Interactive
+
+</div>
+
+</div>
 
 ## Concepts covered
 
@@ -26,8 +45,7 @@ title: Tutorial
   - **default STAC access**
   - **another STAC endpoint**
 
-!!! tip "Colab Runtime Tip"
-    Use **Runtime → Run all** after package installation cells complete.
+**Colab Tip:** Use **Runtime → Run all** after package installation cells complete.
 
 ## Other tutorial in this project
 
@@ -51,4 +69,8 @@ The second tutorial focuses on climate resilience applications across Africa and
 
 | Africa | Asia |
 |--------|------|
-| ![Africa study area](assets/gode_africa.png) | ![Asia study area](assets/ban_asia.png) |
+| ![Africa study area](assets/gode_africa.png){ width="200" } | ![Asia study area](assets/ban_asia.png){ width="200" } |
+
+---
+
+**Navigation:** [← Home](index.md) | [Slides](slides.md)
