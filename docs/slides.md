@@ -8,7 +8,7 @@ Use the slide deck for the lecture part of the session, then switch to the noteb
 
 ## Resources
 
-<div class="section-block">
+<div class="section-block" markdown="1">
 
 - [Download PowerPoint (.pptx)](assets/presentation.pptx)
 - [View on Google Slides](https://docs.google.com/presentation/d/1MbLCZl65a0RlgKDsKgOieQ-J4rfpf8Mx/edit?usp=sharing&ouid=106019696090715174142&rtpof=true&sd=true)
@@ -18,9 +18,9 @@ Use the slide deck for the lecture part of the session, then switch to the noteb
 
 ## QR Codes
 
-<div class="qr-grid">
+<div class="qr-grid" markdown="1">
 
-<div class="qr-card">
+<div class="qr-card" markdown="1">
 
 **DVCUBE**
 
@@ -28,7 +28,7 @@ Use the slide deck for the lecture part of the session, then switch to the noteb
 
 </div>
 
-<div class="qr-card">
+<div class="qr-card" markdown="1">
 
 **My GitHub**
 
@@ -40,13 +40,13 @@ Use the slide deck for the lecture part of the session, then switch to the noteb
 
 ## Preview
 
-<div class="figure-frame">
+<div class="figure-frame" markdown="1">
 
 ![Cubo xarray + Dask slide thumbnail](image.png)
 
 </div>
 
-<div class="resource-links">
+<div class="resource-links" markdown="1">
 
 [Open Google Slides](https://docs.google.com/presentation/d/1MbLCZl65a0RlgKDsKgOieQ-J4rfpf8Mx/edit?usp=sharing&ouid=106019696090715174142&rtpof=true&sd=true)
 

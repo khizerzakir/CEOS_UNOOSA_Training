@@ -4,13 +4,13 @@ title: Home
 
 # EO Tutorial with cubo, xarray, and Dask
 
-<div class="hero">
+<div class="hero" markdown="1">
 
 <p class="lead">A tutorial session on <strong>medium-resolution Earth Observation</strong>, focused on <strong>climate resilience</strong> and <strong>risk monitoring</strong>.</p>
 
 </div>
 
-<div class="figure-frame">
+<div class="figure-frame" markdown="1">
 
 ![Earth MODIS Globe](assets/earth_modis_globe.jpg)
 
@@ -18,9 +18,9 @@ title: Home
 
 ## Get Started
 
-<div class="actions">
+<div class="actions" markdown="1">
 
-<div class="action-card">
+<div class="action-card" markdown="1">
 
 **Tutorial Notebook**
 
@@ -30,7 +30,7 @@ title: Home
 
 </div>
 
-<div class="action-card">
+<div class="action-card" markdown="1">
 
 **Cubo Tutorial**
 
@@ -40,7 +40,7 @@ Complete cubo, xarray, and Dask walkthrough
 
 </div>
 
-<div class="action-card">
+<div class="action-card" markdown="1">
 
 **EO Climate Tutorial**
 
@@ -64,7 +64,7 @@ Regional examples: Africa & Asia
 
 ### Slides
 
-<div class="section-block">
+<div class="section-block" markdown="1">
 
 - [Download presentation (.pptx)](assets/cubo_xarray_dask_presentation.pptx)
 - [View on Google Slides](https://docs.google.com/presentation/d/1MbLCZl65a0RlgKDsKgOieQ-J4rfpf8Mx/edit?usp=sharing&ouid=106019696090715174142&rtpof=true&sd=true)
@@ -74,7 +74,7 @@ Regional examples: Africa & Asia
 
 ### Colab Links
 
-<div class="resource-links">
+<div class="resource-links" markdown="1">
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/khizerzakir/github_pages_cubo_tutorial/blob/main/cubo_xarray_dask_tutorial.ipynb)
 

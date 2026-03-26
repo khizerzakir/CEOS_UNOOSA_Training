@@ -10,9 +10,9 @@ title: Tutorial
 
 ## Quick Links
 
-<div class="actions">
+<div class="actions" markdown="1">
 
-<div class="action-card">
+<div class="action-card" markdown="1">
 
 **Cubo Tutorial**
 
@@ -22,7 +22,7 @@ title: Tutorial
 
 </div>
 
-<div class="action-card">
+<div class="action-card" markdown="1">
 
 **EO Climate Tutorial**
 
@@ -36,7 +36,7 @@ title: Tutorial
 
 ## Concepts covered
 
-<div class="section-block">
+<div class="section-block" markdown="1">
 
 - what a remote EO cube call looks like
 - how `xarray` labels dimensions like `time`, `band`, `y`, `x`
@@ -53,7 +53,7 @@ title: Tutorial
 
 ## Other tutorial in this project
 
-<div class="section-block">
+<div class="section-block" markdown="1">
 
 The second tutorial focuses on climate resilience applications across Africa and Asia:
 
@@ -66,7 +66,7 @@ The second tutorial focuses on climate resilience applications across Africa and
 
 ## Using medium-resolution EO data: key points
 
-<div class="section-block">
+<div class="section-block" markdown="1">
 
 - medium-resolution products are strong for regional monitoring and trend analysis
 - revisit frequency is often more important than fine spatial detail for resilience signals
@@ -79,15 +79,15 @@ The second tutorial focuses on climate resilience applications across Africa and
 
 ## Study Areas
 
-<div class="image-grid">
+<div class="image-grid" markdown="1">
 
-<div class="figure-frame">
+<div class="figure-frame" markdown="1">
 
 ![Africa study area](assets/gode_africa.png)
 
 </div>
 
-<div class="figure-frame">
+<div class="figure-frame" markdown="1">
 
 ![Asia study area](assets/ban_asia.png)
 
