@@ -308,6 +308,16 @@ a:hover {
   background: #fbfdff;
 }
 
+.main-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.qr-img {
+  max-width: 220px;
+  margin: 0.5rem 0 1.5rem 0;
+}
 .qr-card img {
   display: block;
   width: 100%;

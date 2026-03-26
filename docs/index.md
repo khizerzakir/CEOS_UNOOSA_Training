@@ -4,17 +4,9 @@ title: Home
 
 # EO Tutorial with cubo, xarray, and Dask
 
-<div class="hero" markdown="1">
+A tutorial session on medium-resolution Earth Observation, focused on climate resilience and risk monitoring.
 
-<p class="lead">A tutorial session on <strong>medium-resolution Earth Observation</strong>, focused on <strong>climate resilience</strong> and <strong>risk monitoring</strong>.</p>
-
-</div>
-
-<div class="figure-frame" markdown="1">
-
-![Earth MODIS Globe](assets/earth_modis_globe.jpg)
-
-</div>
+<img src="assets/earth_modis_globe.jpg" alt="Earth MODIS Globe" style="max-width: 720px; width: 100%; height: auto; display: block; margin: 1rem auto;">
 
 ## Get Started
 
