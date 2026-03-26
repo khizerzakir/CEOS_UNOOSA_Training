@@ -41,8 +41,7 @@ Use the slide deck for the lecture part of the session, then switch to the noteb
 ## View slides on this page
 
 ### Cubo xarray + Dask presentation
-
-[![Cubo xarray + Dask slide thumbnail](https://docs.google.com/presentation/d/1MbLCZl65a0RlgKDsKgOieQ-J4rfpf8Mx/thumbnail?sz=w1000)](https://docs.google.com/presentation/d/1MbLCZl65a0RlgKDsKgOieQ-J4rfpf8Mx/edit?usp=sharing&ouid=106019696090715174142&rtpof=true&sd=true)
+![Cubo xarray + Dask slide thumbnail](image.png)
 
 - [Open Google Slides](https://docs.google.com/presentation/d/1MbLCZl65a0RlgKDsKgOieQ-J4rfpf8Mx/edit?usp=sharing&ouid=106019696090715174142&rtpof=true&sd=true)
 

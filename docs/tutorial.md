@@ -28,7 +28,7 @@ This tutorial keeps the user-facing workflow simple:
   </div>
   <div class="action-card">
     <strong>Rendered HTML</strong>
-    <a href="assets/eo_climate_resilience_tutorial_africa_asia.ipynb">Open EO climate notebook file</a>
+    <a href="assets/eo_climate_resilience_tutorial_africa_asia.html">Open EO climate notebook file</a>
   </div>
   <div class="action-card">
     <strong>Run in Google Colab</strong>
