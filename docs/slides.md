@@ -16,7 +16,7 @@ Use the slide deck for the lecture part of the session, then switch to the noteb
 
 | DVCUBE | My GitHub |
 | --- | --- |
-| ![DVCUBE QR code](assets/DVCUBE-TVtbma.png) | ![My GitHub QR code](assets/My%20Github-wQcTyP.png) |
+| ![DVCUBE QR code](assets/DVCUBE-TVtbma.png){width=150px} | ![My GitHub QR code](assets/My%20Github-wQcTyP.png){width=150px} |
 
 ## Preview
 
