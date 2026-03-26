@@ -1,68 +1,50 @@
 ---
-title: EO Tutorial with cubo, xarray, and Dask
+title: Home
 ---
 
-<link rel="stylesheet" href="assets/site.css">
+# 🌍 EO Tutorial with cubo, xarray, and Dask
 
-<div class="top-nav">
-  <a href="./">Home</a>
-  <a href="./tutorial">Tutorial</a>
-  <a href="./slides">Slides</a>
-</div>
+A comprehensive tutorial session on **medium-resolution Earth Observation**, focused on **climate resilience** and **risk monitoring**.
 
-# EO Tutorial with `cubo`, xarray, and Dask
+![Earth MODIS Globe](assets/earth_modis_globe.jpg){ width="420" }
 
-A Tutorial session on **medium-resolution Earth Observation**, focused on **climate resilience** and **risk monitoring**.
+!!! info "Quick Start"
+    Open the tutorial notebook in your browser, download if needed, or launch directly in Google Colab.
 
-<p align="center">
-  <img src="assets/earth_modis_globe.jpg" alt="Earth view" width="420">
-</p>
+## 🚀 Get Started
 
-<div class="hero">
-  <p><strong>Quick start:</strong> open the tutorial notebook in your browser, download the notebook if needed, or launch directly in Google Colab.</p>
-</div>
+=== "Browser"
+    - **[Open tutorial in browser](assets/cubo_xarray_dask_tutorial.html)** — Interactive HTML notebook
+    - **[Open EO climate tutorial](assets/eo_climate_resilience_tutorial_africa_asia.html)** — Climate analysis notebook
 
-## Table of Contents
+=== "Download"
+    - **[Download cubo notebook](assets/cubo_xarray_dask_tutorial.ipynb)** — .ipynb file
+    - **[Download climate notebook](assets/eo_climate_resilience_tutorial_africa_asia.ipynb)** — .ipynb file
 
-* TOC
-{:toc}
+=== "Google Colab"
+    - **[Open cubo in Colab](https://colab.research.google.com/github/khizerzakir/github_pages_cubo_tutorial/blob/main/cubo_xarray_dask_tutorial.ipynb)** — Run in cloud
+    - **[Open EO climate in Colab](https://colab.research.google.com/github/khizerzakir/github_pages_cubo_tutorial/blob/main/eo_climate_resilience_tutorial_africa_asia.ipynb)** — Climate notebook
 
-<div class="actions">
-  <div class="action-card">
-    <strong>Rendered notebook</strong>
-    <a href="assets/cubo_xarray_dask_tutorial.html">Open tutorial in browser</a>
-  </div>
-  <div class="action-card">
-    <strong>Notebook file</strong>
-    <a href="assets/cubo_xarray_dask_tutorial.ipynb">Download .ipynb</a>
-  </div>
-  <div class="action-card">
-    <strong>Run in Google Colab</strong>
-    <a href="https://colab.research.google.com/github/khizerzakir/github_pages_cubo_tutorial/blob/main/cubo_xarray_dask_tutorial.ipynb" target="_blank" rel="noopener">Open cubo tutorial in Colab</a>
-  </div>
-  <div class="action-card">
-    <strong>EO climate notebook in Colab</strong>
-    <a href="https://colab.research.google.com/github/khizerzakir/github_pages_cubo_tutorial/blob/main/eo_climate_resilience_tutorial_africa_asia.ipynb" target="_blank" rel="noopener">Open EO climate tutorial in Colab</a>
-  </div>
-</div>
+## 📦 What is Included
 
-## What is included
+!!! check "Complete Package"
+    - **Slide deck** — Dask, API calling, xarray, and workflow overview
+    - **Jupyter notebooks** — Using **`cubo`** as the unified API
+    - **Regional examples** — Real-world applications:
+        - **🌍 Africa:** MODIS NDVI/EVI time series analysis
+        - **🏝️ Asia:** Sentinel-3 OLCI coastal monitoring
 
-- a **slide deck** introducing Dask, API calling, xarray, and the tutorial flow
-- a **Jupyter notebook** using **`cubo`** as the single user-facing API
-- two simple regional examples:
-  - **Africa:** MODIS NDVI/EVI
-  - **Asia:** Sentinel-3 OLCI coastal quicklook
+## 📚 Resources
 
-## Slides
+### 🎬 Presentations
 
-- [Download the presentation (`.pptx`)](assets/cubo_xarray_dask_presentation.pptx)
-- [Google Slides (add your link later)](#)
-- [Open slides page](./slides)
+- [📥 Download PowerPoint (.pptx)](assets/cubo_xarray_dask_presentation.pptx)
+- [📊 View on Google Slides](https://docs.google.com/presentation/d/1MbLCZl65a0RlgKDsKgOieQ-J4rfpf8Mx/edit?usp=sharing&ouid=106019696090715174142&rtpof=true&sd=true)
+- [→ Go to slides page](slides.md)
 
-## Run in Google Colab
+### ☁️ Run in Google Colab
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/khizerzakir/github_pages_cubo_tutorial/blob/main/cubo_xarray_dask_tutorial.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/khizerzakir/github_pages_cubo_tutorial/blob/main/cubo_xarray_dask_tutorial.ipynb){ target="_blank" }
 
-[![Open EO Climate Notebook In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/khizerzakir/github_pages_cubo_tutorial/blob/main/eo_climate_resilience_tutorial_africa_asia.ipynb)
+[![Open EO Climate In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/khizerzakir/github_pages_cubo_tutorial/blob/main/eo_climate_resilience_tutorial_africa_asia.ipynb){ target="_blank" }
 

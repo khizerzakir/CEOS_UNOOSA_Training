@@ -1,55 +1,44 @@
 ---
-title: Tutorial overview
+title: Tutorial
 ---
 
-<link rel="stylesheet" href="assets/site.css">
+# 📖 Tutorial Overview
 
-<div class="top-nav">
-  <a href="./index">Home</a>
-  <a href="./tutorial">Tutorial</a>
-  <a href="./slides">Slides</a>
-</div>
+## 🔄 Workflow
 
-# Tutorial overview
+```mermaid
+graph LR
+    A["🌐 cubo<br/>Data Access"] --> B["📊 xarray<br/>Analysis"]
+    B --> C["⚙️ Dask<br/>Scaling"]
+    C --> D["📈 Results"]
+    style A fill:#e1f5ff
+    style B fill:#fff3e0
+    style C fill:#f3e5f5
+    style D fill:#e8f5e9
+```
 
-This tutorial keeps the user-facing workflow simple:
+## 🔗 Quick Links
 
-> **`cubo` for data access, `xarray` for analysis, Dask for scaling**
+=== "📓 Notebooks"
+    - [View cubo tutorial (HTML)](assets/cubo_xarray_dask_tutorial.html)
+    - [View EO climate tutorial (HTML)](assets/eo_climate_resilience_tutorial_africa_asia.html)
+    - [Download cubo notebook](assets/cubo_xarray_dask_tutorial.ipynb)
+    - [Download climate notebook](assets/eo_climate_resilience_tutorial_africa_asia.ipynb)
 
-## Table of Contents
+=== "☁️ Colab"
+    - [Launch cubo in Colab](https://colab.research.google.com/github/khizerzakir/github_pages_cubo_tutorial/blob/main/cubo_xarray_dask_tutorial.ipynb)
+    - [Launch EO climate in Colab](https://colab.research.google.com/github/khizerzakir/github_pages_cubo_tutorial/blob/main/eo_climate_resilience_tutorial_africa_asia.ipynb)
 
-* TOC
-{:toc}
+## 💡 Key Concepts
 
-<div class="actions">
-  <div class="action-card">
-    <strong>Rendered HTML</strong>
-    <a href="assets/cubo_xarray_dask_tutorial.html">Open notebook as HTML</a>
-  </div>
-  <div class="action-card">
-    <strong>Rendered HTML</strong>
-    <a href="assets/eo_climate_resilience_tutorial_africa_asia.html">Open EO climate notebook file</a>
-  </div>
-  <div class="action-card">
-    <strong>Run in Google Colab</strong>
-    <a href="https://colab.research.google.com/github/khizerzakir/github_pages_cubo_tutorial/blob/main/cubo_xarray_dask_tutorial.ipynb" target="_blank" rel="noopener">Launch cubo tutorial in Colab</a>
-  </div>
-  <div class="action-card">
-    <strong>EO climate notebook</strong>
-    <a href="https://colab.research.google.com/github/khizerzakir/github_pages_cubo_tutorial/blob/main/eo_climate_resilience_tutorial_africa_asia.ipynb" target="_blank" rel="noopener">Launch EO climate notebook in Colab</a>
-  </div>
-</div>
-
-## Concepts covered
-
-- what a remote EO cube call looks like
-- how `xarray` labels dimensions like `time`, `band`, `y`, `x`
-- why Dask-backed chunks matter
-- why `.compute()` should happen late
-- how the same `cubo.create(...)` call can target:
-  - **Google Earth Engine**
-  - **default STAC access**
-  - **another STAC endpoint**
+- ✅ Remote EO cube API calls
+- ✅ xarray dimensions: `time`, `band`, `y`, `x`
+- ✅ Dask chunking strategy
+- ✅ Lazy evaluation with `.compute()`
+- ✅ Flexible backends:
+    - Google Earth Engine
+    - STAC
+    - Custom endpoints
 
 ## Notebook
 
@@ -58,34 +47,39 @@ This tutorial keeps the user-facing workflow simple:
 - [Open cubo tutorial in Colab](https://colab.research.google.com/github/khizerzakir/github_pages_cubo_tutorial/blob/main/cubo_xarray_dask_tutorial.ipynb)
 - [Open EO climate tutorial in Colab](https://colab.research.google.com/github/khizerzakir/github_pages_cubo_tutorial/blob/main/eo_climate_resilience_tutorial_africa_asia.ipynb)
 
-<div class="inline-note">
-  Colab runtime tip: use <strong>Runtime → Run all</strong> after package installation cells complete.
-</div>
+!!! tip "💡 Colab Runtime Tip"
+    Use **Runtime → Run all** after package installation cells complete.
 
-## Other tutorial in this project
+!!! warning "⏰ Execution Time"
+    Some operations may take 5-10 minutes depending on data volume and cloud load.
 
-The second tutorial focuses on climate resilience applications across Africa and Asia:
+## 🌱 Climate Resilience Tutorial
 
-- [EO climate resilience notebook](assets/eo_climate_resilience_tutorial_africa_asia.ipynb)
-- includes AOI setup for `gode_afric` and `ban_asia`
-- uses MPC/STAC and cubo-friendly workflows for participants without GEE
-- includes NDVI snapshots, search patterns, and integrated climate-context examples
+The companion tutorial focuses on practical applications across Africa and Asia:
 
-## Using medium-resolution EO data: key points
+!!! check "Featured Content"
+    - **[Open climate notebook](assets/eo_climate_resilience_tutorial_africa_asia.ipynb)**
+    - AOI setup for Africa (`gode_africa`) and Asia (`ban_asia`)
+    - MPC/STAC workflows (no GEE needed)
+    - NDVI time series, search patterns, climate context
 
-- medium-resolution products are strong for regional monitoring and trend analysis
-- revisit frequency is often more important than fine spatial detail for resilience signals
-- keep spatial and temporal windows small first, then scale with Dask
-- always check scaling factors, QA flags, and product-specific metadata
-- combine EO indicators with rainfall and local context before interpretation
+## 🎯 Medium-Resolution EO Best Practices
+
+!!! info "Why Medium-Resolution?"
+    - Ideal for regional monitoring and trend analysis
+    - Revisit frequency > spatial detail for resilience signals
+    - Cost-effective for large areas
+
+!!! check "Implementation Guidelines"
+    - Start small: limit spatial and temporal windows
+    - Scale up with Dask once proven
+    - Validate scaling factors and QA flags
+    - Combine with rainfall data and local context
+    - Never interpret EO signals in isolation
 
 
 ## Study Areas
 
-<div class="image-grid">
-  <img src="assets/gode_africa.png" alt="gode_africa">
-  <img src="assets/ban_asia.png" alt="ban_asia">
-
-</div>
-
-- [Go back to the home page](./index)
+| Africa | Asia |
+|--------|------|
+| ![Africa study area](assets/gode_africa.png) | ![Asia study area](assets/ban_asia.png) |
