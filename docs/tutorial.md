@@ -96,6 +96,6 @@ The second tutorial focuses on climate resilience applications across Africa and
 </div>
 
 <div style="display:flex; justify-content:space-between; margin-top:2rem; padding-top:1rem; border-top:1px solid #ddd;">
-  <a href="../docs/index.md" style="text-decoration:none; font-weight:600;">← Home</a>
-  <a href="../docs/slides.md" style="text-decoration:none; font-weight:600;">Slides →</a>
+  <a href="./" style="text-decoration:none; font-weight:600;">← Home</a>
+  <a href="slides" style="text-decoration:none; font-weight:600;">Slides →</a>
 </div>
