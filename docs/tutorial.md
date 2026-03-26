@@ -14,7 +14,7 @@ title: Tutorial
 
 <div class="action-card" markdown="1">
 
-**Cubo Tutorial**
+**Cubo Tutorial - Notebook 1**
 
 [View as HTML](assets/cubo_xarray_dask_tutorial.html) — Rendered notebook
 
@@ -24,7 +24,7 @@ title: Tutorial
 
 <div class="action-card" markdown="1">
 
-**EO Climate Tutorial**
+**EO Climate Tutorial - Notebook 2**
 
 [View as HTML](assets/eo_climate_resilience_tutorial_africa_asia.html) — Rendered notebook
 
@@ -34,7 +34,7 @@ title: Tutorial
 
 </div>
 
-## Concepts covered
+## Concepts covered in Cubo Tutorial - Notebook 1
 
 <div class="section-block" markdown="1">
 
@@ -51,7 +51,7 @@ title: Tutorial
 
 **Colab Tip:** Use **Runtime → Run all** after package installation cells complete.
 
-## Other tutorial in this project
+## EO Climate Resilience - Notebook 2
 
 <div class="section-block" markdown="1">
 
@@ -95,6 +95,7 @@ The second tutorial focuses on climate resilience applications across Africa and
 
 </div>
 
----
-
-**Navigation:** [← Home](index.md) | [Slides](slides.md)
+<div style="display:flex; justify-content:space-between; margin-top:2rem; padding-top:1rem; border-top:1px solid #ddd;">
+  <a href="tutorial.md" style="text-decoration:none; font-weight:600;">← Tutorial</a>
+  <a href="index.md" style="text-decoration:none; font-weight:600;">Home</a>
+</div>

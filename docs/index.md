@@ -74,7 +74,8 @@ Regional examples: Africa & Asia
 
 </div>
 
----
+<div style="display:flex; justify-content:flex-end; margin-top:2rem; padding-top:1rem; border-top:1px solid #ddd;">
+  <a href="tutorial.md" style="text-decoration:none; font-weight:600;">Next →</a>
+</div>
 
-**Navigation:** [Slides](slides.md) | [Tutorial →](tutorial.md)
 

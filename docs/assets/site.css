@@ -94,6 +94,28 @@ a:hover {
   }
 }
 
+.page-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ddd;
+}
+
+.page-nav a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nav-left {
+  text-align: left;
+}
+
+.nav-right {
+  text-align: right;
+}
+
 .top-nav {
   display: flex;
   flex-wrap: wrap;
